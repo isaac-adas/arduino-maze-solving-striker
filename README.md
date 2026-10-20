@@ -17,7 +17,11 @@ Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor 
 
 [photo here of the finished robot]
 
-[![STRIKER maze run](https://img.youtube.com/vi/cDdMQnneDAg/hqdefault.jpg)](https://youtu.be/cDdMQnneDAg)
+<a href="https://youtu.be/cDdMQnneDAg">
+  <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="720">
+</a>
+<br>
+<a href="https://youtu.be/cDdMQnneDAg"><b>Watch the maze run on YouTube</b></a>
 
 Build notes: [Instructables article URL here]
 
