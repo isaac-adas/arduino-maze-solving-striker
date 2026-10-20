@@ -2,16 +2,6 @@
 
 # STRIKER v3
 
-**Wall-following maze robot for Arduino Uno.**
-
-Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
-
-[photo here of the finished robot]
-
-[video here of one maze run]
-
-Build notes: [Instructables article URL here]
-
 [![Arduino UNO](https://img.shields.io/badge/Arduino-UNO-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![C++](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://www.arduino.cc/reference/en/)
 [![MIT License](https://img.shields.io/badge/License-MIT-f7df1e?style=for-the-badge)](LICENSE)
@@ -20,6 +10,16 @@ Build notes: [Instructables article URL here]
 [![Follow the wall](https://img.shields.io/badge/Strategy-Follow%20the%20wall-6a4c93?style=for-the-badge)](#control-panel)
 [![3x HC-SR04](https://img.shields.io/badge/Eyes-3x%20HC--SR04-f4a261?style=for-the-badge)](#wiring)
 [![L298N](https://img.shields.io/badge/Driver-L298N-264653?style=for-the-badge)](#wiring)
+
+**Wall-following maze robot for Arduino Uno.**
+
+Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
+
+[photo here of the finished robot]
+
+[YouTube video here]
+
+Build notes: [Instructables article URL here]
 
 <br>
 
