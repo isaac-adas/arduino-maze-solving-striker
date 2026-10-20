@@ -4,7 +4,7 @@
 
 **Wall-following maze robot for Arduino Uno.**
 
-Three ultrasonic sensors, an L298N, and a press-fit plate. No camera. Sensor covers push into the body. Zip ties hold the battery and the driver. No screws and no glue.
+Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
 
 [photo here of the finished robot]
 
@@ -23,9 +23,27 @@ Build notes: [Instructables article URL here]
 
 <br>
 
-[Sketch](#the-sketch) · [Try the wires](#try-the-wires-first) · [Parts](#parts) · [Wiring](#wiring) · [Start](#getting-started) · [Control panel](#control-panel) · [Chassis](#chassis)
+[Sketch](#the-sketch) · [Try the wires](#try-the-wires-first) · [Parts](#parts) · [Wiring](#wiring) · [Start](#getting-started) · [Control panel](#control-panel) · [Chassis](#chassis) · [Repo](#repo)
 
 </p>
+
+---
+
+## Repo
+
+```
+arduino-maze-solving-striker/
+├── Striker_v3/Striker_v3.ino          maze sketch
+├── SensorCheck/SensorCheck.ino        distances only, motors off
+├── MotorDirection/MotorDirection.ino  one wheel, then the other
+├── design/
+│   ├── Striker_v3_Chassis.dxf         laser file, 250 x 300 mm
+│   └── Striker_v3_Chassis.pdf
+├── docs/PIN_LAYOUT.md
+├── libraries/NewPing/                 ultrasonic library
+├── LICENSE
+└── README.md
+```
 
 ---
 
@@ -193,7 +211,7 @@ A ready-made 2WD chassis works too, as long as the Arduino, driver, and three se
 
 [photo here of the plate from above]
 
-[photo here of the press-fit cover]
+[photo here of the tab and slot cover]
 
 [photo here of stack]
 
