@@ -216,7 +216,7 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 ## Chassis
 
-The laser-cut plate is about **15 × 10 cm**, cut from a larger sheet. This one is **3 mm** acrylic. Plywood or MDF of the same thickness works, because the slots are cut for 3 mm. Files and build notes are in [`design/`](design/).
+The laser-cut plate is about **15 × 10 cm**, cut from a larger sheet. This one is **3 mm** acrylic. Plywood and cardboard of the same thickness work, because the slots are cut for 3 mm. Do not use MDF. Files and build notes are in [`design/`](design/).
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
