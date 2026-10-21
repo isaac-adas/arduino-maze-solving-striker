@@ -21,7 +21,9 @@ Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor 
 
 <br>
 
-<h2 align="center"><a href="https://youtu.be/cDdMQnneDAg">Watch the maze run on YouTube</a></h2>
+<a href="https://youtu.be/cDdMQnneDAg"><img src="https://img.shields.io/badge/Watch%20the%20maze%20run-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the maze run on YouTube"></a>
+
+<br>
 
 <img src="images/finished-robot.jpg" alt="STRIKER, finished" width="640">
 
