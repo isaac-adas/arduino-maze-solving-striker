@@ -15,13 +15,13 @@
 
 Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
 
-[photo here of the finished robot]
-
 <a href="https://youtu.be/cDdMQnneDAg">
   <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="720">
 </a>
 <br>
 <a href="https://youtu.be/cDdMQnneDAg"><b>Watch the maze run on YouTube</b></a>
+
+<img src="images/finished-robot.jpg" alt="STRIKER, finished" width="720">
 
 Build notes: [Instructables article URL here]
 
@@ -43,6 +43,7 @@ arduino-maze-solving-striker/
 ├── design/
 │   ├── Striker_v3_Chassis.dxf         laser file, 250 x 300 mm
 │   └── Striker_v3_Chassis.pdf
+├── images/                            photos of the finished robot
 ├── docs/PIN_LAYOUT.md
 ├── libraries/NewPing/                 ultrasonic library
 ├── LICENSE
@@ -97,7 +98,7 @@ Upload one of these before the maze sketch. Same pins. Wheels off the ground for
 
 The sensors use the analog pins as digital pins, so the PWM pins stay free for the motors.
 
-[photo here of the sensors on the front edge]
+![Sensors on the front edge](images/sensors-front.jpg)
 
 ```
                  FRONT
@@ -213,11 +214,11 @@ The laser-cut plate is **250 × 300 mm**, **3 mm** acrylic. Files and build note
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
-[photo here of the plate from above]
+![Plate from above](images/plate-top.jpg)
 
-[photo here of the tab and slot cover]
+![Tab and slot cover](images/tab-and-slot-cover.jpg)
 
-[photo here of stack]
+![Motors under the plate, driver on top](images/stack.jpg)
 
 ---
 
