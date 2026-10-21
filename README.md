@@ -23,7 +23,7 @@ Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor 
 
 <img src="images/finished-robot.jpg" alt="STRIKER, finished" width="720">
 
-Build notes: [Instructables article URL here]
+Build notes: [Maze Solving Robot on Instructables](https://www.instructables.com/Maze-Solving-Robot-MicroMouse-Wall-Following-Robot/)
 
 <br>
 
