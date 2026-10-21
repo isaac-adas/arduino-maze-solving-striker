@@ -85,7 +85,7 @@ deliberately keeping the PWM-capable pins free for motor control.
 - ENA/ENB must stay on true PWM pins (D3, D5, D6, D9, D10, D11 are PWM on UNO).
   D10 and D11 are used here — both PWM-capable. Good.
 - Motor supply (VS/12V) and GND come from the battery pack, not the Arduino.
-- Remove the ENA/ENB jumpers on the L298N board so PWM speed control works.
+- This build left the jumpers on the red L298N and wired ENA to D11 and ENB to D10. On some copies of that module a jumper ties ENA or ENB to 5V, and the motor then stays at full speed. Take that jumper off.
 
 ### Status LEDs (3x)
 

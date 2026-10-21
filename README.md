@@ -47,7 +47,7 @@ arduino-maze-solving-striker/
 ├── SensorCheck/SensorCheck.ino        distances only, motors off
 ├── MotorDirection/MotorDirection.ino  one wheel, then the other
 ├── design/
-│   ├── Striker_v3_Chassis.dxf         laser file, 250 x 300 mm
+│   ├── Striker_v3_Chassis.dxf         laser file, the robot outline
 │   └── Striker_v3_Chassis.pdf
 ├── images/                            photos of the finished robot
 ├── docs/PIN_LAYOUT.md
@@ -91,7 +91,7 @@ Upload one of these before the maze sketch. Same pins. Wheels off the ground for
 | Piece | Qty | Notes |
 |---|---:|---|
 | Arduino UNO | 1 | The brain |
-| L298N motor driver | 1 | Remove the ENA and ENB jumpers |
+| L298N motor driver | 1 | Wire ENA and ENB. Pull those jumpers only if a motor stays at full speed |
 | HC-SR04 ultrasonic sensor | 3 | Left, front, right |
 | DC motors + wheels | 2 | |
 | 12V battery pack | 1 | Powers the motors through the L298N |
@@ -216,7 +216,7 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 ## Chassis
 
-The laser-cut plate is **250 × 300 mm**, **3 mm** acrylic. Files and build notes are in [`design/`](design/).
+The laser-cut plate is about **15 × 10 cm**, cut from a larger sheet. This one is **3 mm** acrylic. Plywood or MDF of the same thickness works, because the slots are cut for 3 mm. Files and build notes are in [`design/`](design/).
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
