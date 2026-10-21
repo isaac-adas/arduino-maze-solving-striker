@@ -19,9 +19,13 @@ Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor 
   <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="640">
 </a>
 
-<br><br>
+<br><br><br>
 
-<a href="https://youtu.be/cDdMQnneDAg"><b>Watch the maze run on YouTube</b></a>
+<font size="6"><a href="https://youtu.be/cDdMQnneDAg"><b>Watch the maze run on YouTube</b></a></font>
+
+<br><br><br>
+
+<img src="images/finished-robot.jpg" alt="STRIKER, finished" width="640">
 
 <br><br>
 
@@ -217,8 +221,6 @@ The laser-cut plate is **250 × 300 mm**, **3 mm** acrylic. Files and build note
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
 The back of the plate is tight. A small motor and a small wheel, side by side, is the fit to aim for. The motors in the photos were the ones on hand. They spin faster, and the gearbox plus the wheel is too wide to sit next to its twin, so one motor is mounted ahead of the other. That brings the wide back end in.
-
-![Finished robot, one motor ahead of the other](images/finished-robot.jpg)
 
 ![Plate from above](images/plate-top.jpg)
 
