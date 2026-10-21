@@ -16,12 +16,14 @@
 Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
 
 <a href="https://youtu.be/cDdMQnneDAg">
-  <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="720">
+  <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="640">
 </a>
-<br>
+
+<br><br>
+
 <a href="https://youtu.be/cDdMQnneDAg"><b>Watch the maze run on YouTube</b></a>
 
-<img src="images/finished-robot.jpg" alt="STRIKER, finished" width="720">
+<br><br>
 
 Build notes: [Maze Solving Robot on Instructables](https://www.instructables.com/Maze-Solving-Robot-MicroMouse-Wall-Following-Robot/)
 
@@ -213,6 +215,10 @@ Once the walls end, the robot stops so it does not drive off the stage.
 The laser-cut plate is **250 × 300 mm**, **3 mm** acrylic. Files and build notes are in [`design/`](design/).
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
+
+The back of the plate is tight. A small motor and a small wheel, side by side, is the fit to aim for. The motors in the photos were the ones on hand. They spin faster, and the gearbox plus the wheel is too wide to sit next to its twin, so one motor is mounted ahead of the other. That brings the wide back end in.
+
+![Finished robot, one motor ahead of the other](images/finished-robot.jpg)
 
 ![Plate from above](images/plate-top.jpg)
 
