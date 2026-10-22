@@ -13,7 +13,7 @@
 
 **Wall-following maze robot for Arduino Uno.**
 
-Three ultrasonic sensors, an L298N, and a tab-and-slot plate. No camera. Sensor covers push into slots in the body. Zip ties hold the battery and the driver. No screws and no glue.
+STRIKER holds one wall, takes the turn, and rolls out of the maze on its own. Three ultrasonic sensors, an L298N, and a tab-and-slot plate made for this robot. The covers push into the body. Zip ties hold the battery and the driver. No screws and no glue.
 
 <a href="https://youtu.be/cDdMQnneDAg">
   <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="640">
@@ -216,7 +216,7 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 ## Chassis
 
-The laser-cut plate is about **15 × 10 cm**, cut from a larger sheet. This one is **3 mm** acrylic. Plywood and cardboard of the same thickness work, because the slots are cut for 3 mm. Do not use MDF. Files and build notes are in [`design/`](design/).
+The plate in the photos is about **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
