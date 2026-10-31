@@ -218,7 +218,7 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 The plate is **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. A common 2WD chassis is 21 × 15 cm, which is 315 cm². This plate is 150 cm², about half that area. A 135 × 135 mm plate is 182 cm², and this one is about 18% smaller. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
 
-The outline is curved, and the parts sit with space around them, so a bump meets a curve instead of a sharp corner. The earlier plates had those sharp edges. This one runs smoother. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits.
+The outline is curved. The earlier plates had sharp edges, and a sharp edge can cut a hand. This one is safer and easier to handle. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits.
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
