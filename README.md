@@ -167,7 +167,7 @@ Change these at the top of the sketch. The rest of the file is the program.
 | `FOLLOW_LEFT` | Always follows the left wall |
 | `FOLLOW_RIGHT` | Always follows the right wall |
 
-`autoDefault` is only for `FOLLOW_AUTO`, when both sides are open or both are blocked.
+On `FOLLOW_AUTO`, the first opening decides. An opening on the left means follow the left wall. An opening on the right means follow the right wall. `autoDefault` is only for `FOLLOW_AUTO`, when both sides are open or both are blocked.
 
 ### Passage width
 
