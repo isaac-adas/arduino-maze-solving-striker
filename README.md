@@ -47,9 +47,14 @@ arduino-maze-solving-striker/
 ├── SensorCheck/SensorCheck.ino        distances only, motors off
 ├── MotorDirection/MotorDirection.ino  one wheel, then the other
 ├── design/
-│   ├── Striker_v3_Chassis.dxf         laser file, the robot outline
-│   └── Striker_v3_Chassis.pdf
-├── images/                            photos of the finished robot
+│   ├── Striker_v3_Chassis.dxf         laser cut, no dimension lines
+│   ├── Striker_v3_Chassis.pdf         same cut, for the shop
+│   ├── Striker_v3_Chassis.cdr         same cut, CorelDRAW
+│   ├── Striker_v3_Chassis.ai          same cut, Illustrator
+│   ├── Striker_v3_Measures.pdf        dimensions, for reading
+│   ├── Striker_v3_Measures.cdr        dimensions, CorelDRAW
+│   └── Striker_v3_Measures.ai         dimensions, Illustrator
+├── images/                            photos and the build drawings
 ├── docs/PIN_LAYOUT.md
 ├── libraries/NewPing/                 ultrasonic library
 ├── LICENSE
@@ -138,6 +143,8 @@ All three sensors: **VCC → 5V**, **GND → GND**.
 
 > **Power.** Motor current comes from the battery through the L298N, never from an Arduino pin. Tie the Arduino, L298N, sensor, and battery grounds together.
 
+![One ground for the whole robot](images/common-ground.png)
+
 Full pin map: [`docs/PIN_LAYOUT.md`](docs/PIN_LAYOUT.md).
 
 ---
@@ -169,6 +176,8 @@ Change these at the top of the sketch. The rest of the file is the program.
 
 On `FOLLOW_AUTO`, the first opening decides. An opening on the left means follow the left wall. An opening on the right means follow the right wall. `autoDefault` is only for `FOLLOW_AUTO`, when both sides are open or both are blocked.
 
+![The test maze](images/test-maze.png)
+
 ### Passage width
 
 `corridorWidthCm` is one corridor, measured from the left wall to the right wall.
@@ -181,6 +190,8 @@ A **30 cm** passage keeps the original distances:
 | `PID_STEER` | 13 cm | 7 cm | 10 cm |
 
 Change `corridorWidthCm` and those three distances scale with it.
+
+![What the robot sees](images/what-the-robot-sees.png)
 
 ### Try other distances
 
@@ -218,7 +229,13 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 The plate is **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. A common 2WD chassis is 21 × 15 cm, which is 315 cm². This plate is 150 cm², about half that area. A 135 × 135 mm plate is 182 cm², and this one is about 18% smaller. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
 
-The outline is curved. The earlier plates had sharp edges, and a sharp edge can cut a hand. This one is safer and easier to handle. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits.
+The outline is curved. The earlier plates had sharp edges, and a sharp edge can cut a hand. This one is safer and easier to handle. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits. The shop file is [`Striker_v3_Chassis.dxf`](design/Striker_v3_Chassis.dxf), with the same cut as a PDF, a CorelDRAW file, and an Illustrator file. Dimensions are on [`Striker_v3_Measures.pdf`](design/Striker_v3_Measures.pdf), with CorelDRAW and Illustrator copies beside it.
+
+![Tab and drop assembly](images/tab-and-drop.png)
+
+![Where the parts fit](images/parts-fit.png)
+
+![Leveling the robot](images/leveling.png)
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
 
