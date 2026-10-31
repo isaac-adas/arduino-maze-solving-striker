@@ -13,7 +13,7 @@
 
 **Wall-following maze robot for Arduino Uno.**
 
-STRIKER holds one wall, takes the turn, and rolls out of the maze on its own. Three ultrasonic sensors, an L298N, and a tab-and-slot plate made for this robot. The covers push into the body. Zip ties hold the battery and the driver. No screws and no glue.
+STRIKER holds one wall, takes the turn, and rolls out of the maze on its own. Three ultrasonic sensors, an L298N, and a tab-and-slot plate made for this robot. The plate is **15 × 10 cm**, about half the area of a common 21 × 15 cm chassis. The covers push into the body. Zip ties hold the battery and the driver. No screws and no glue.
 
 <a href="https://youtu.be/cDdMQnneDAg">
   <img src="https://img.youtube.com/vi/cDdMQnneDAg/maxresdefault.jpg" alt="Watch STRIKER solve the maze" width="640">
@@ -216,9 +216,13 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 ## Chassis
 
-The plate in the photos is about **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
+The plate is **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. A common 2WD chassis is 21 × 15 cm, which is 315 cm². This plate is 150 cm², about half that area. A 135 × 135 mm plate is 182 cm², and this one is about 18% smaller. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
+
+The outline is curved, and the parts sit with space around them, so a bump meets a curve instead of a sharp corner. The earlier plates had those sharp edges. This one runs smoother. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits.
 
 A ready-made 2WD chassis works too, as long as the Arduino, driver, and three sensors fit.
+
+The plate is small in the hand. Zip-tie the Arduino at the front only. Leave the back free, so you can lift that end and plug in the USB cable. Tie both ends and you have to take parts off to reach the port.
 
 The back of the plate is tight. A small motor and a small wheel, side by side, is the fit to aim for. The motors in the photos were the ones on hand. They spin faster, and the gearbox plus the wheel is too wide to sit next to its twin, so one motor is mounted ahead of the other. That brings the wide back end in.
 
