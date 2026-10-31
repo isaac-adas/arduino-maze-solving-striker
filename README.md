@@ -53,7 +53,12 @@ arduino-maze-solving-striker/
 │   ├── Striker_v3_Chassis.ai          same cut, Illustrator
 │   ├── Striker_v3_Measures.pdf        dimensions, for reading
 │   ├── Striker_v3_Measures.cdr        dimensions, CorelDRAW
-│   └── Striker_v3_Measures.ai         dimensions, Illustrator
+│   ├── Striker_v3_Measures.ai         dimensions, Illustrator
+│   ├── tab-and-drop.ai                build drawing
+│   ├── parts-fit.ai
+│   ├── leveling.ai
+│   ├── what-the-robot-sees.ai
+│   └── test-maze.ai
 ├── images/                            photos and the build drawings
 ├── docs/PIN_LAYOUT.md
 ├── libraries/NewPing/                 ultrasonic library
@@ -227,7 +232,7 @@ Once the walls end, the robot stops so it does not drive off the stage.
 
 ## Chassis
 
-The plate is **15 × 10 cm**, cut from a larger sheet, in **3 mm** acrylic. A common 2WD chassis is 21 × 15 cm, which is 315 cm². This plate is 150 cm², about half that area. A 135 × 135 mm plate is 182 cm², and this one is about 18% smaller. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
+The plate is **15 × 10 cm**, in **3 mm** acrylic, laid out on a common **30 × 50 cm** sheet. The cut uses **177 mm** of the 500 mm side. That is **35.4%** of the sheet. The other **323 mm**, **64.6%**, is left for the rest of your cuts. A common 2WD chassis is 21 × 15 cm, which is 315 cm². This plate is 150 cm², about half that area. A 135 × 135 mm plate is 182 cm², and this one is about 18% smaller. The same drawing cuts in plywood. Cardboard works too, and a little glue is fine on cardboard. The slots are sized for a 3 mm sheet. Files and build notes are in [`design/`](design/).
 
 The outline is curved. The earlier plates had sharp edges, and a sharp edge can cut a hand. This one is safer and easier to handle. The file has more than one cover and more than one way to stack the parts. Use the spot where the part fits. The shop file is [`Striker_v3_Chassis.dxf`](design/Striker_v3_Chassis.dxf), with the same cut as a PDF, a CorelDRAW file, and an Illustrator file. Dimensions are on [`Striker_v3_Measures.pdf`](design/Striker_v3_Measures.pdf), with CorelDRAW and Illustrator copies beside it.
 
