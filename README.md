@@ -53,12 +53,7 @@ arduino-maze-solving-striker/
 │   ├── Striker_v3_Chassis.ai          same cut, Illustrator
 │   ├── Striker_v3_Measures.pdf        dimensions, for reading
 │   ├── Striker_v3_Measures.cdr        dimensions, CorelDRAW
-│   ├── Striker_v3_Measures.ai         dimensions, Illustrator
-│   ├── tab-and-drop.ai                build drawing
-│   ├── parts-fit.ai
-│   ├── leveling.ai
-│   ├── what-the-robot-sees.ai
-│   └── test-maze.ai
+│   └── Striker_v3_Measures.ai         dimensions, Illustrator
 ├── images/                            photos and the build drawings
 ├── docs/PIN_LAYOUT.md
 ├── libraries/NewPing/                 ultrasonic library
