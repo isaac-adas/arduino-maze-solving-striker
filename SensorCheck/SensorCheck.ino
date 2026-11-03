@@ -1,5 +1,5 @@
 /*
-  STRIKER v3 — sensor check.
+  STRIKER v3, sensor check.
   Motors stay off. Open the Serial Monitor at 115200.
   Same pins as Striker_v3.
 */

@@ -1,5 +1,5 @@
 /*
-  STRIKER v3 — wall-following maze robot.
+  STRIKER v3, wall-following maze robot.
   Only edit a line that ends with <--   then upload.
 */
 

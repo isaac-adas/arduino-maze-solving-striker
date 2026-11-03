@@ -1,5 +1,5 @@
 /*
-  STRIKER v3 — motor direction.
+  STRIKER v3, motor direction.
   Lift the robot so the wheels are off the ground.
   Each step runs for one second: left, right, then both.
   If a wheel spins backward, swap that motor's two wires. Do not upload again.
